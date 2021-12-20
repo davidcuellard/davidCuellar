@@ -119,6 +119,19 @@ header {
       #bio .bio_left .skills .html:hover {
         background-image: url("../images/star5.png");
         cursor: pointer; }
+      #bio .bio_left .skills .arduino {
+        background-image: url("../images/arduino.png");
+        background-color: white;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 90%;
+        border-radius: 20px;
+        width: 100px;
+        height: 100px;
+        margin: 10px; }
+      #bio .bio_left .skills .arduino:hover {
+        background-image: url("../images/star5.png");
+        cursor: pointer; }
       #bio .bio_left .skills .css {
         background-image: url("../images/css.png");
         background-color: white;
@@ -246,6 +259,11 @@ header {
           width: 60px;
           margin: 5px;
           border-radius: 10px; }
+        #bio .bio_left .skills .arduino {
+          height: 60px;
+          width: 60px;
+          margin: 5px;
+          border-radius: 10px; }
         #bio .bio_left .skills .css {
           height: 60px;
           width: 60px;
@@ -306,6 +324,11 @@ header {
         flex-direction: row;
         justify-content: center; }
         #bio .bio_left .skills .html {
+          height: 100px;
+          width: 100px;
+          margin: 5px;
+          border-radius: 10px; }
+        #bio .bio_left .skills .arduino {
           height: 100px;
           width: 100px;
           margin: 5px;

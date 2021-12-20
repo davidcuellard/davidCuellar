@@ -162,6 +162,23 @@ header{
 				cursor: pointer;
 			}
 
+			.arduino{
+				background-image: url("../images/arduino.png");
+				background-color: white;
+				background-position: center center;
+				background-repeat: no-repeat;
+				background-size: 90%;
+				border-radius: 20px;
+				width: 100px;
+				height: 100px;
+				margin: 10px;
+			}
+
+			.arduino:hover{
+				background-image: url("../images/star5.png");
+				cursor: pointer;
+			}
+
 			.css{
 				background-image: url("../images/css.png");
 				background-color: white;
@@ -333,6 +350,13 @@ header{
 					border-radius: 10px;
 				}
 
+				.arduino{
+					height: 60px;
+					width: 60px;
+					margin: 5px;
+					border-radius: 10px;
+				}
+
 				.css{
 					height: 60px;
 					width: 60px;
@@ -423,6 +447,13 @@ header{
 				justify-content: center;
 
 				.html{
+					height: 100px;
+					width: 100px;
+					margin: 5px;
+					border-radius: 10px;
+				}
+
+				.arduino{
 					height: 100px;
 					width: 100px;
 					margin: 5px;
