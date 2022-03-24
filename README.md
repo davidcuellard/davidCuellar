@@ -4,7 +4,7 @@ Portfolio
 
 Objetivo: Develop a web page using html and css with portfolio
 
-Web: https://davidcuellard.github.io/davidCuellar/
+Web: https://davidcuellard.github.io/davidCuellar-portfolio/
 
 # Gif
 
