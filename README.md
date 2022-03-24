@@ -8,7 +8,7 @@ Web: https://davidcuellard.github.io/davidCuellar/
 
 # Gif
 
-![image](https://github.com/davidcuellard/davidCuellar/blob/main/src/media/screen.gif?raw=true)
+![image](https://github.com/davidcuellard/davidCuellar/blob/main/images/gif.gif?raw=true)
 
 ### `npm install -D node-sass nodemon`
 ### `npm run watch-css`
