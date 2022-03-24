@@ -1,17 +1,16 @@
-@author: DAVID CUELLAR
+@author: Portfolio DAVID CUELLAR
 
 Portfolio
 
 Objetivo: Develop a web page using html and css with portfolio
 
-En la consola de comandos, ejecutamos:
+Web: https://davidcuellard.github.io/davidCuellar/
 
-node -v (Si nos tira un número de versión, tenemos instalado Node... no hace falta realizar el Paso 1)
-npm -v (Si nos tira un número de versión, tenemos instalado NPM... no hace falta realizar el Paso 2)
+# Gif
 
-1. Instalar Node.js (Ir a https://nodejs.org/es/download/ descargar la versión para Windows 10)
-2. Instalar NPM (En la consola de comandos o Terminal de Visual Code, ejecutar: npm install npm@latest -g)
-3. Ejecutar npm init (En la consola de comandos o Terminal de Visual Code, ejecutar: npm init ... darle todo ENTER y escribir "yes" al final)
-4. Instalar SASS (En la consola de comandos o Terminal de Visual Code, ejecutar: npm install -g sass)
-5. Instalar Node-SASS (En la consola de comandos o Terminal de Visual Code, ejecutar: npm install -D node-sass nodemon)
-6. Ejecutar npm run watch-css (En la consola de comandos o Terminal de Visual Code, ejecutar: npm run watch-css)
+![image](https://github.com/davidcuellard/davidCuellar/blob/main/src/media/screen.gif?raw=true)
+
+### `npm install -D node-sass nodemon`
+### `npm run watch-css`
+
+Both manage the styles in the web
