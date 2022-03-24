@@ -513,15 +513,28 @@ header {
     justify-content: center;
     align-content: space-between; }
     #portfolio .websites .virtualEvent {
-      background-image: url("../images/virtualEvent.jpg");
+      background-image: url("../images/virtualEvent.png");
       background-color: white;
       background-position: center center;
       background-repeat: no-repeat;
       background-size: 100%;
       border-radius: 20px;
       width: 150px;
-      height: 150px; }
+      height: 150px;
+      margin: 20px; }
     #portfolio .websites .virtualEvent:hover {
+      background-image: url("../images/click.gif"); }
+    #portfolio .websites .jsecommerce {
+      background-image: url("../images/jsecommerce.png");
+      background-color: white;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      border-radius: 20px;
+      width: 150px;
+      height: 150px;
+      margin: 20px; }
+    #portfolio .websites .jsecommerce:hover {
       background-image: url("../images/click.gif"); }
 
 @media only screen and (max-width: 559px) {
@@ -552,6 +565,9 @@ header {
       width: 90px;
       height: 90px; }
     #portfolio .websites .virtualEvent {
+      width: 90px;
+      height: 90px; }
+    #portfolio .websites .jsecommerce {
       width: 90px;
       height: 90px; } }
 

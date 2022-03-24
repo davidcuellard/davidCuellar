@@ -690,7 +690,7 @@ header{
 		align-content: space-between;
 		
 		.virtualEvent{
-			background-image: url("../images/virtualEvent.jpg");
+			background-image: url("../images/virtualEvent.png");
 			background-color: white;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -698,8 +698,23 @@ header{
 			border-radius: 20px;
 			width: 150px;
 			height: 150px;
+			margin: 20px;
 		}
 		.virtualEvent:hover{
+			background-image: url("../images/click.gif");
+		}
+		.jsecommerce{
+			background-image: url("../images/jsecommerce.png");
+			background-color: white;
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: 100%;
+			border-radius: 20px;
+			width: 150px;
+			height: 150px;
+			margin: 20px;
+		}
+		.jsecommerce:hover{
 			background-image: url("../images/click.gif");
 		}
 	}
@@ -756,6 +771,10 @@ header{
 
 		.websites{
 			.virtualEvent{
+				width: 90px;
+				height: 90px;		
+			}
+			.jsecommerce{
 				width: 90px;
 				height: 90px;		
 			}
