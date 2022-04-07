@@ -2,7 +2,7 @@
 
 Portfolio
 
-Objetivo: Develop a web page using html and css with portfolio
+Objective: Develop a web page using html and css with portfolio
 
 Web: https://davidcuellard.github.io/davidCuellar-portfolio/
 
