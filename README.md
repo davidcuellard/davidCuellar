@@ -13,4 +13,4 @@ Web: https://davidcuellard.github.io/davidCuellar-portfolio/
 ### `npm install -D node-sass nodemon`
 ### `npm run watch-css`
 
-Both manage the styles in the web
+Both manage the styles in the website
