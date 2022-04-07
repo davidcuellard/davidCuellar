@@ -536,6 +536,18 @@ header {
       margin: 20px; }
     #portfolio .websites .jsecommerce:hover {
       background-image: url("../images/click.gif"); }
+    #portfolio .websites .reactecommerce {
+      background-image: url("../images/reactecommerce.png");
+      background-color: white;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      border-radius: 20px;
+      width: 150px;
+      height: 150px;
+      margin: 20px; }
+    #portfolio .websites .reactecommerce:hover {
+      background-image: url("../images/click.gif"); }
 
 @media only screen and (max-width: 559px) {
   #portfolio {
@@ -568,6 +580,9 @@ header {
       width: 90px;
       height: 90px; }
     #portfolio .websites .jsecommerce {
+      width: 90px;
+      height: 90px; }
+    #portfolio .websites .reactecommerce {
       width: 90px;
       height: 90px; } }
 
