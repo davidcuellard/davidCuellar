@@ -752,11 +752,6 @@ header{
 			}
 		}
 
-		.python{
-			justify-content: flex-start;
-			overflow-x: scroll;
-		}
-
 		a{
 			.mdpi{
 				width: 90px;
@@ -765,6 +760,8 @@ header{
 		}
 
 		.python{
+			justify-content: flex-start;
+			overflow-x: scroll;
 			.xrite{
 				width: 90px;
 				height: 90px;
@@ -784,6 +781,8 @@ header{
 		}
 
 		.websites{
+			justify-content: flex-start;
+			overflow-x: scroll;
 			.virtualEvent{
 				width: 90px;
 				height: 90px;		

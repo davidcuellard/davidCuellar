@@ -558,33 +558,36 @@ header {
       font-size: 15px; }
     #portfolio .card h6 {
       font-size: 13px; }
-    #portfolio .python {
-      justify-content: flex-start;
-      overflow-x: scroll; }
     #portfolio a .mdpi {
       width: 90px;
       height: 90px; }
-    #portfolio .python .xrite {
-      width: 90px;
-      height: 90px; }
-    #portfolio .python .modalCanopy {
-      width: 90px;
-      height: 90px; }
-    #portfolio .python .chlorophyll {
-      width: 90px;
-      height: 90px; }
-    #portfolio .python #myBtn {
-      width: 90px;
-      height: 90px; }
-    #portfolio .websites .virtualEvent {
-      width: 90px;
-      height: 90px; }
-    #portfolio .websites .jsecommerce {
-      width: 90px;
-      height: 90px; }
-    #portfolio .websites .reactecommerce {
-      width: 90px;
-      height: 90px; } }
+    #portfolio .python {
+      justify-content: flex-start;
+      overflow-x: scroll; }
+      #portfolio .python .xrite {
+        width: 90px;
+        height: 90px; }
+      #portfolio .python .modalCanopy {
+        width: 90px;
+        height: 90px; }
+      #portfolio .python .chlorophyll {
+        width: 90px;
+        height: 90px; }
+      #portfolio .python #myBtn {
+        width: 90px;
+        height: 90px; }
+    #portfolio .websites {
+      justify-content: flex-start;
+      overflow-x: scroll; }
+      #portfolio .websites .virtualEvent {
+        width: 90px;
+        height: 90px; }
+      #portfolio .websites .jsecommerce {
+        width: 90px;
+        height: 90px; }
+      #portfolio .websites .reactecommerce {
+        width: 90px;
+        height: 90px; } }
 
 #contact {
   position: relative;
