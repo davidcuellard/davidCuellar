@@ -12,7 +12,11 @@ html {
 }
 
 .bodyContainer {
-  overflow-x: hidden;
+  background-image: url(../images/body_home2.gif);
+  background-position: center/cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 p {
@@ -29,7 +33,7 @@ header {
   right: 50px;
   z-index: 100;
   height: 50px;
-  background-color: rgba(0, 0, 0, 0.37);
+  background-color: rgba(1, 0, 81, 0.039);
   .menu {
     width: 100%;
 
@@ -45,6 +49,7 @@ header {
         display: block;
         color: $color_fuente;
         text-align: center;
+        font-weight: 700;
         padding: 10px;
         text-decoration: none;
         width: 145px;
@@ -78,14 +83,10 @@ header {
   position: relative;
   display: flex;
   flex-direction: column;
-  background-image: url(../images/body_home.gif);
-  background-repeat: no-repeat;
   margin: auto;
-  background-position: center/cover;
-  background-size: 100%;
+
   height: 100vh;
   z-index: 1;
-  background-color: black;
   align-items: center;
   justify-content: center;
 
@@ -93,15 +94,16 @@ header {
     background-image: url("../images/logo.png");
     background-position: center center;
     background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(1, 0, 81, 0.039);
     background-size: 100%;
+    border-radius: 10px;
     width: 400px;
     height: 300px;
   }
 
   h2 {
-    background-color: rgba(0, 0, 0, 0.8);
     color: white;
+    text-align: center;
   }
 }
 
@@ -121,12 +123,12 @@ header {
   position: relative;
   display: flex;
   flex-direction: row;
-  background-color: black;
-  background-image: url(../images/body_bio.gif);
-  background-repeat: no-repeat;
+  // background-color: black;
+  // background-image: url(../images/body_bio.gif);
+  // background-repeat: no-repeat;
   margin: auto;
-  background-position: center;
-  background-size: 100%;
+  // background-position: center;
+  // background-size: 100%;
   height: 100vh;
   width: 100%;
   z-index: 1;
@@ -142,7 +144,7 @@ header {
 
     p {
       margin-bottom: 30px;
-      background-color: rgba(0, 0, 0, 0.84);
+      // background-color: rgba(0, 0, 0, 0.018);
     }
 
     .skills {
@@ -153,53 +155,7 @@ header {
       align-content: center;
       justify-content: center;
 
-      .html {
-        background-image: url("../images/html.png");
-        background-color: white;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: 90%;
-        border-radius: 20px;
-        width: 70px;
-        height: 70px;
-        margin: 10px;
-      }
-
-      .html:hover {
-        background-image: url("../images/star5.png");
-        cursor: pointer;
-      }
-
-      .arduino {
-        background-image: url("../images/arduino.png");
-        background-color: white;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: 90%;
-        border-radius: 20px;
-        width: 70px;
-        height: 70px;
-        margin: 10px;
-      }
-
-      .arduino:hover {
-        background-image: url("../images/star5.png");
-        cursor: pointer;
-      }
-
-      .css {
-        background-image: url("../images/css.png");
-        background-color: white;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: 60%;
-        border-radius: 20px;
-        width: 70px;
-        height: 70px;
-        margin: 10px;
-      }
-
-      .css:hover {
+      .star:hover {
         background-image: url("../images/star5.png");
         cursor: pointer;
       }
@@ -216,11 +172,6 @@ header {
         margin: 10px;
       }
 
-      .react:hover {
-        background-image: url("../images/star5.png");
-        cursor: pointer;
-      }
-
       .node {
         background-image: url("../images/node.png");
         background-color: white;
@@ -231,11 +182,6 @@ header {
         width: 70px;
         height: 70px;
         margin: 10px;
-      }
-
-      .node:hover {
-        background-image: url("../images/star5.png");
-        cursor: pointer;
       }
 
       .solidity {
@@ -250,10 +196,6 @@ header {
         margin: 10px;
       }
 
-      .solidity:hover {
-        background-image: url("../images/star5.png");
-        cursor: pointer;
-      }
       .rust {
         background-image: url("../images/rust.png");
         background-color: white;
@@ -264,11 +206,6 @@ header {
         width: 70px;
         height: 70px;
         margin: 10px;
-      }
-
-      .rust:hover {
-        background-image: url("../images/star5.png");
-        cursor: pointer;
       }
 
       .sql {
@@ -283,11 +220,6 @@ header {
         margin: 10px;
       }
 
-      .sql:hover {
-        background-image: url("../images/star5.png");
-        cursor: pointer;
-      }
-
       .mongodb {
         background-image: url("../images/mongodb.png");
         background-color: white;
@@ -298,11 +230,6 @@ header {
         width: 70px;
         height: 70px;
         margin: 10px;
-      }
-
-      .mongodb:hover {
-        background-image: url("../images/star5.png");
-        cursor: pointer;
       }
 
       .docker {
@@ -317,11 +244,6 @@ header {
         margin: 10px;
       }
 
-      .docker:hover {
-        background-image: url("../images/star5.png");
-        cursor: pointer;
-      }
-
       .js {
         background-image: url("../images/js.png");
         background-color: white;
@@ -334,11 +256,6 @@ header {
         margin: 10px;
       }
 
-      .js:hover {
-        background-image: url("../images/star5.png");
-        cursor: pointer;
-      }
-
       .python {
         background-image: url("../images/python.png");
         background-color: white;
@@ -349,62 +266,6 @@ header {
         width: 70px;
         height: 70px;
         margin: 10px;
-      }
-
-      .python:hover {
-        background-image: url("../images/star5.png");
-        cursor: pointer;
-      }
-
-      .slack {
-        background-image: url("../images/slack.png");
-        background-color: white;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: 90%;
-        border-radius: 20px;
-        width: 70px;
-        height: 70px;
-        margin: 10px;
-      }
-
-      .slack:hover {
-        background-image: url("../images/star4.png");
-        cursor: pointer;
-      }
-
-      .asana {
-        background-image: url("../images/asana.png");
-        background-color: white;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: 90%;
-        border-radius: 20px;
-        width: 70px;
-        height: 70px;
-        margin: 10px;
-      }
-
-      .asana:hover {
-        background-image: url("../images/star4.png");
-        cursor: pointer;
-      }
-
-      .ai {
-        background-image: url("../images/ai.png");
-        background-color: white;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: 90%;
-        border-radius: 20px;
-        width: 70px;
-        height: 70px;
-        margin: 10px;
-      }
-
-      .ai:hover {
-        background-image: url("../images/star3.png");
-        cursor: pointer;
       }
     }
   }
@@ -452,27 +313,6 @@ header {
         flex-direction: row;
         justify-content: center;
 
-        .html {
-          height: 60px;
-          width: 60px;
-          margin: 5px;
-          border-radius: 10px;
-        }
-
-        .arduino {
-          height: 60px;
-          width: 60px;
-          margin: 5px;
-          border-radius: 10px;
-        }
-
-        .css {
-          height: 60px;
-          width: 60px;
-          margin: 5px;
-          border-radius: 10px;
-        }
-
         .react {
           height: 60px;
           width: 60px;
@@ -530,34 +370,6 @@ header {
         }
 
         .python {
-          height: 60px;
-          width: 60px;
-          margin: 5px;
-          border-radius: 10px;
-        }
-
-        .blockchain {
-          height: 60px;
-          width: 60px;
-          margin: 5px;
-          border-radius: 10px;
-        }
-
-        .slack {
-          height: 60px;
-          width: 60px;
-          margin: 5px;
-          border-radius: 10px;
-        }
-
-        .asana {
-          height: 60px;
-          width: 60px;
-          margin: 5px;
-          border-radius: 10px;
-        }
-
-        .ai {
           height: 60px;
           width: 60px;
           margin: 5px;
@@ -602,27 +414,6 @@ header {
         flex-direction: row;
         justify-content: center;
 
-        .html {
-          height: 100px;
-          width: 100px;
-          margin: 5px;
-          border-radius: 10px;
-        }
-
-        .arduino {
-          height: 100px;
-          width: 100px;
-          margin: 5px;
-          border-radius: 10px;
-        }
-
-        .css {
-          height: 100px;
-          width: 100px;
-          margin: 5px;
-          border-radius: 10px;
-        }
-
         .react {
           height: 100px;
           width: 100px;
@@ -685,34 +476,6 @@ header {
           margin: 5px;
           border-radius: 10px;
         }
-
-        .blockchain {
-          height: 100px;
-          width: 100px;
-          margin: 5px;
-          border-radius: 10px;
-        }
-
-        .slack {
-          height: 100px;
-          width: 100px;
-          margin: 5px;
-          border-radius: 10px;
-        }
-
-        .asana {
-          height: 100px;
-          width: 100px;
-          margin: 5px;
-          border-radius: 10px;
-        }
-
-        .ai {
-          height: 100px;
-          width: 100px;
-          margin: 5px;
-          border-radius: 10px;
-        }
       }
     }
 
@@ -726,9 +489,9 @@ header {
   position: relative;
   display: flex;
   flex-direction: column;
-  background-image: url(../images/body_portfolio.gif);
-  background-repeat: repeat;
-  background-size: cover;
+  // background-image: url(../images/body_portfolio.gif);
+  // background-repeat: repeat;
+  // background-size: cover;
   margin: auto;
   height: 100%;
   z-index: 1;
@@ -755,6 +518,9 @@ header {
     background-color: $color_fuente;
     margin: 2% 15% 2% 10%;
     border-radius: 20px;
+    scrollbar-color: rgb(0, 4, 82) lightblue;
+    scrollbar-width: thin;
+    overflow: scroll; 
   }
 
   a {
@@ -831,7 +597,7 @@ header {
       background-color: white;
       background-position: center center;
       background-repeat: no-repeat;
-      background-size: 100%;
+      background-size: cover;
       border-radius: 20px;
       width: 150px;
       height: 150px;
@@ -893,19 +659,17 @@ header {
       background-image: url("../images/click.gif");
     }
 
-    /* The Modal (background) */
     .modal {
-      display: none; /* Hidden by default */
-      position: fixed; /* Stay in place */
-      z-index: 1; /* Sit on top */
-      padding-top: 100px; /* Location of the box */
-      left: 0;
-      top: 0;
-      width: 100%; /* Full width */
-      height: 100%; /* Full height */
-      overflow: auto; /* Enable scroll if needed */
-      background-color: rgb(0, 0, 0); /* Fallback color */
-      background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+      // display: none;
+      // position: fixed;
+      z-index: 1;
+      padding-top: 100px;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      display: flex;
+      justify-self: center;
+      align-self: center;
     }
 
     #myBtn {
@@ -955,8 +719,9 @@ header {
   .blockchain {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-content: space-between;
+    justify-content: flex-start;
+    overflow-x: scroll;
 
     h5 {
       margin: 10px 10px 0px 10px;
@@ -990,6 +755,28 @@ header {
       background-position: center center;
       background-repeat: no-repeat;
       background-size: 100%;
+      border-radius: 20px;
+      width: 150px;
+      height: 150px;
+    }
+
+    .frost {
+      background-image: url("../images/frost.jpg");
+      background-color: white;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 20px;
+      width: 150px;
+      height: 150px;
+    }
+
+    .tfhe {
+      background-image: url("../images/tfhe.png");
+      background-color: white;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
       border-radius: 20px;
       width: 150px;
       height: 150px;
@@ -1044,6 +831,20 @@ header {
     .reactecommerce:hover {
       background-image: url("../images/click.gif");
     }
+    .flockio {
+      background-image: url("../images/flockio.gif");
+      background-color: white;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      border-radius: 20px;
+      width: 150px;
+      height: 150px;
+      margin: 20px;
+    }
+    .flockio:hover {
+      background-image: url("../images/click.gif");
+    }
 
     .django {
       background-image: url("../images/django.gif");
@@ -1068,6 +869,8 @@ header {
     background-position: center;
 
     .card {
+      justify-content: flex-start;
+      overflow-x: scroll;
       h3 {
         font-size: 18px;
       }
@@ -1100,6 +903,14 @@ header {
         height: 90px;
       }
       .evoting {
+        width: 90px;
+        height: 90px;
+      }
+      .frost {
+        width: 90px;
+        height: 90px;
+      }
+      .tfhe {
         width: 90px;
         height: 90px;
       }
@@ -1149,6 +960,10 @@ header {
         height: 90px;
       }
       .reactecommerce {
+        width: 90px;
+        height: 90px;
+      }
+      .flockio {
         width: 90px;
         height: 90px;
       }
