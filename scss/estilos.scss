@@ -9,6 +9,7 @@ $fondo_primario: #000000;
 
 html {
   background-color: rgb(0, 0, 0);
+  color: $color_fuente;
 }
 
 .bodyContainer {
@@ -23,7 +24,7 @@ p {
   color: $color_fuente;
 }
 
-.h2 {
+h1 h2 h3 {
   color: $color_fuente;
 }
 
@@ -121,6 +122,11 @@ header {
       width: 300px;
       height: 200px;
     }
+
+    h3 {
+      font-size: 20px;
+      font-weight: 300;
+    }
   }
 }
 
@@ -128,12 +134,7 @@ header {
   position: relative;
   display: flex;
   flex-direction: row;
-  // background-color: black;
-  // background-image: url(../images/body_bio.gif);
-  // background-repeat: no-repeat;
   margin: auto;
-  // background-position: center;
-  // background-size: 100%;
   height: 100vh;
   width: 100%;
   z-index: 1;
@@ -145,6 +146,9 @@ header {
     width: 50%;
     h2 {
       margin: 10% 10% 2% 10%;
+      color: $color_fuente;
+      justify-content: center;
+      align-self: center;
     }
 
     p {
@@ -293,7 +297,6 @@ header {
 // Bio mobil
 @media only screen and (max-width: 559px) {
   #bio {
-    background-size: 180vh;
     margin: 0;
 
     .bio_left {
@@ -303,8 +306,10 @@ header {
       width: 80%;
       margin-left: auto;
       margin-right: auto;
+
       h2 {
         text-align: center;
+        color: $color_fuente;
       }
 
       p {
@@ -996,6 +1001,9 @@ header {
 
   h2 {
     margin: 8% 10% 5% 10%;
+    color: $color_fuente;
+    justify-content: center;
+    align-self: center;
   }
 
   .pfree {
@@ -1084,7 +1092,7 @@ header {
     margin: 0;
     justify-content: flex-start;
 
-    .h2 {
+    h2 {
       text-align: center;
       margin-top: 60px;
     }
@@ -1134,7 +1142,7 @@ header {
     margin: 0;
     justify-content: flex-start;
 
-    .h2 {
+    h2 {
       text-align: center;
       margin-top: 200px;
     }

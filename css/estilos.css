@@ -1,22 +1,28 @@
 * {
   font-family: "Montserrat";
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 html {
-  background-color: black; }
+  background-color: rgb(0, 0, 0);
+  color: #e2e2e2;
+}
 
 .bodyContainer {
   background-image: url("https://seceon.com/wp-content/uploads/2024/08/Background-dark-1300-x-600-px.gif");
   background-position: center/cover;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+}
 
 p {
-  color: #e2e2e2; }
+  color: #e2e2e2;
+}
 
-.h2 {
-  color: #e2e2e2; }
+h1 h2 h3 {
+  color: #e2e2e2;
+}
 
 header {
   position: fixed;
@@ -24,37 +30,47 @@ header {
   right: 50px;
   z-index: 100;
   height: 50px;
-  background-color: rgba(1, 0, 81, 0.039); }
-  header .menu {
-    width: 100%; }
-    header .menu ul {
-      list-style-type: none;
-      overflow: hidden;
-      font-size: 20px;
-      padding: 5px 10px; }
-    header .menu li {
-      float: left; }
-      header .menu li a {
-        display: block;
-        color: #e2e2e2;
-        text-align: center;
-        font-weight: 700;
-        padding: 10px;
-        text-decoration: none;
-        width: 145px; }
-      header .menu li a:hover {
-        color: #ffd12a; }
-  header .menuMobil {
-    display: none; }
+  background-color: rgba(1, 0, 81, 0.039);
+}
+header .menu {
+  width: 100%;
+}
+header .menu ul {
+  list-style-type: none;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 5px 10px;
+}
+header .menu li {
+  float: left;
+}
+header .menu li a {
+  display: block;
+  color: #e2e2e2;
+  text-align: center;
+  font-weight: 700;
+  padding: 10px;
+  text-decoration: none;
+  width: 145px;
+}
+header .menu li a:hover {
+  color: #ffd12a;
+}
+header .menuMobil {
+  display: none;
+}
 
 @media only screen and (max-width: 559px) {
   header {
-    top: 5%; }
-    header .menu {
-      display: none; }
-    header .menuMobil {
-      display: contents; } }
-
+    top: 5%;
+  }
+  header .menu {
+    display: none;
+  }
+  header .menuMobil {
+    display: contents;
+  }
+}
 #home {
   position: relative;
   display: flex;
@@ -63,31 +79,41 @@ header {
   height: 100vh;
   z-index: 1;
   align-items: center;
-  justify-content: center; }
-  #home .home_logo {
-    background-image: url("../images/logo.png");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-color: rgba(1, 0, 81, 0.039);
-    background-size: 100%;
-    border-radius: 10px;
-    width: 400px;
-    height: 300px; }
-  #home h2 {
-    color: white;
-    text-align: center; }
-  #home h3 {
-    color: white;
-    text-align: center;
-    font-size: 24px; }
+  justify-content: center;
+}
+#home .home_logo {
+  background-image: url("../images/logo.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: rgba(1, 0, 81, 0.039);
+  background-size: 100%;
+  border-radius: 10px;
+  width: 400px;
+  height: 300px;
+}
+#home h2 {
+  color: white;
+  text-align: center;
+}
+#home h3 {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+}
 
 @media only screen and (max-width: 559px) {
   #home {
-    background-size: 180vh; }
-    #home .home_logo {
-      width: 300px;
-      height: 200px; } }
-
+    background-size: 180vh;
+  }
+  #home .home_logo {
+    width: 300px;
+    height: 200px;
+  }
+  #home h3 {
+    font-size: 20px;
+    font-weight: 300;
+  }
+}
 #bio {
   position: relative;
   display: flex;
@@ -95,632 +121,753 @@ header {
   margin: auto;
   height: 100vh;
   width: 100%;
-  z-index: 1; }
-  #bio .bio_left {
-    display: flex;
-    flex-direction: column;
-    margin: 10px 25px 10px 100px;
-    width: 50%; }
-    #bio .bio_left h2 {
-      margin: 10% 10% 2% 10%; }
-    #bio .bio_left p {
-      margin-bottom: 30px; }
-    #bio .bio_left .skills {
-      padding: 0px 20px;
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      align-content: center;
-      justify-content: center; }
-      #bio .bio_left .skills .star:hover {
-        background-image: url("../images/star5.png");
-        cursor: pointer; }
-      #bio .bio_left .skills .react {
-        background-image: url("../images/react.png");
-        background-color: white;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: 100%;
-        border-radius: 20px;
-        width: 70px;
-        height: 70px;
-        margin: 10px; }
-      #bio .bio_left .skills .node {
-        background-image: url("../images/node.png");
-        background-color: white;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: 100%;
-        border-radius: 20px;
-        width: 70px;
-        height: 70px;
-        margin: 10px; }
-      #bio .bio_left .skills .solidity {
-        background-image: url("../images/solidity.png");
-        background-color: white;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: 100%;
-        border-radius: 20px;
-        width: 70px;
-        height: 70px;
-        margin: 10px; }
-      #bio .bio_left .skills .rust {
-        background-image: url("../images/rust.png");
-        background-color: white;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: 100%;
-        border-radius: 20px;
-        width: 70px;
-        height: 70px;
-        margin: 10px; }
-      #bio .bio_left .skills .sql {
-        background-image: url("../images/sql.png");
-        background-color: white;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: 100%;
-        border-radius: 20px;
-        width: 70px;
-        height: 70px;
-        margin: 10px; }
-      #bio .bio_left .skills .mongodb {
-        background-image: url("../images/mongodb.png");
-        background-color: white;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: 100%;
-        border-radius: 20px;
-        width: 70px;
-        height: 70px;
-        margin: 10px; }
-      #bio .bio_left .skills .docker {
-        background-image: url("../images/docker.png");
-        background-color: white;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: 100%;
-        border-radius: 20px;
-        width: 70px;
-        height: 70px;
-        margin: 10px; }
-      #bio .bio_left .skills .js {
-        background-image: url("../images/js.png");
-        background-color: white;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: 90%;
-        border-radius: 20px;
-        width: 70px;
-        height: 70px;
-        margin: 10px; }
-      #bio .bio_left .skills .python {
-        background-image: url("../images/python.png");
-        background-color: white;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: 90%;
-        border-radius: 20px;
-        width: 70px;
-        height: 70px;
-        margin: 10px; }
-  #bio .photo_bio {
-    width: 50%;
-    background-image: url("../images/photo_bio3.png");
-    background-position: relative;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 60vh;
-    height: 80vh;
-    z-index: 1000;
-    align-self: flex-end;
-    position: absolute;
-    right: 10px; }
+  z-index: 1;
+}
+#bio .bio_left {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 25px 10px 100px;
+  width: 50%;
+}
+#bio .bio_left h2 {
+  margin: 10% 10% 2% 10%;
+  color: #e2e2e2;
+  justify-content: center;
+  align-self: center;
+}
+#bio .bio_left p {
+  margin-bottom: 30px;
+}
+#bio .bio_left .skills {
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+#bio .bio_left .skills .star:hover {
+  background-image: url("../images/star5.png");
+  cursor: pointer;
+}
+#bio .bio_left .skills .react {
+  background-image: url("../images/react.png");
+  background-color: white;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 20px;
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+}
+#bio .bio_left .skills .node {
+  background-image: url("../images/node.png");
+  background-color: white;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 20px;
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+}
+#bio .bio_left .skills .solidity {
+  background-image: url("../images/solidity.png");
+  background-color: white;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 20px;
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+}
+#bio .bio_left .skills .rust {
+  background-image: url("../images/rust.png");
+  background-color: white;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 20px;
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+}
+#bio .bio_left .skills .sql {
+  background-image: url("../images/sql.png");
+  background-color: white;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 20px;
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+}
+#bio .bio_left .skills .mongodb {
+  background-image: url("../images/mongodb.png");
+  background-color: white;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 20px;
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+}
+#bio .bio_left .skills .docker {
+  background-image: url("../images/docker.png");
+  background-color: white;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 20px;
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+}
+#bio .bio_left .skills .js {
+  background-image: url("../images/js.png");
+  background-color: white;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  border-radius: 20px;
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+}
+#bio .bio_left .skills .python {
+  background-image: url("../images/python.png");
+  background-color: white;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  border-radius: 20px;
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+}
+#bio .photo_bio {
+  width: 50%;
+  background-image: url("../images/photo_bio3.png");
+  background-position: relative;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 60vh;
+  height: 80vh;
+  z-index: 1000;
+  align-self: flex-end;
+  position: absolute;
+  right: 10px;
+}
 
 @media only screen and (max-width: 559px) {
   #bio {
-    background-size: 180vh;
-    margin: 0; }
-    #bio .bio_left {
-      display: flex;
-      flex-direction: column;
-      width: 80%;
-      margin-left: auto;
-      margin-right: auto; }
-      #bio .bio_left h2 {
-        text-align: center; }
-      #bio .bio_left p {
-        margin-bottom: 30px;
-        font-size: 13px;
-        text-align: justify; }
-      #bio .bio_left .skills {
-        display: flex;
-        flex-direction: row;
-        justify-content: center; }
-        #bio .bio_left .skills .react {
-          height: 60px;
-          width: 60px;
-          margin: 5px;
-          border-radius: 10px; }
-        #bio .bio_left .skills .node {
-          height: 60px;
-          width: 60px;
-          margin: 5px;
-          border-radius: 10px; }
-        #bio .bio_left .skills .solidity {
-          height: 60px;
-          width: 60px;
-          margin: 5px;
-          border-radius: 10px; }
-        #bio .bio_left .skills .rust {
-          height: 60px;
-          width: 60px;
-          margin: 5px;
-          border-radius: 10px; }
-        #bio .bio_left .skills .sql {
-          height: 60px;
-          width: 60px;
-          margin: 5px;
-          border-radius: 10px; }
-        #bio .bio_left .skills .mongodb {
-          height: 60px;
-          width: 60px;
-          margin: 5px;
-          border-radius: 10px; }
-        #bio .bio_left .skills .docker {
-          height: 60px;
-          width: 60px;
-          margin: 5px;
-          border-radius: 10px; }
-        #bio .bio_left .skills .js {
-          height: 60px;
-          width: 60px;
-          margin: 5px;
-          border-radius: 10px; }
-        #bio .bio_left .skills .python {
-          height: 60px;
-          width: 60px;
-          margin: 5px;
-          border-radius: 10px; }
-    #bio .photo_bio {
-      display: none; } }
-
+    margin: 0;
+  }
+  #bio .bio_left {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #bio .bio_left h2 {
+    text-align: center;
+    color: #e2e2e2;
+  }
+  #bio .bio_left p {
+    margin-bottom: 30px;
+    font-size: 13px;
+    text-align: justify;
+  }
+  #bio .bio_left .skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  #bio .bio_left .skills .react {
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+    border-radius: 10px;
+  }
+  #bio .bio_left .skills .node {
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+    border-radius: 10px;
+  }
+  #bio .bio_left .skills .solidity {
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+    border-radius: 10px;
+  }
+  #bio .bio_left .skills .rust {
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+    border-radius: 10px;
+  }
+  #bio .bio_left .skills .sql {
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+    border-radius: 10px;
+  }
+  #bio .bio_left .skills .mongodb {
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+    border-radius: 10px;
+  }
+  #bio .bio_left .skills .docker {
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+    border-radius: 10px;
+  }
+  #bio .bio_left .skills .js {
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+    border-radius: 10px;
+  }
+  #bio .bio_left .skills .python {
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+    border-radius: 10px;
+  }
+  #bio .photo_bio {
+    display: none;
+  }
+}
 @media only screen and (min-width: 559px) and (max-width: 965px) {
   #bio {
     background-size: 180vh;
-    margin: 0; }
-    #bio .bio_left {
-      display: flex;
-      flex-direction: column;
-      width: 80%;
-      margin-left: auto;
-      margin-right: auto; }
-      #bio .bio_left h2 {
-        text-align: center;
-        margin-top: 200px; }
-      #bio .bio_left p {
-        margin-bottom: 30px;
-        font-size: 20px;
-        text-align: justify; }
-      #bio .bio_left .skills {
-        display: flex;
-        flex-direction: row;
-        justify-content: center; }
-        #bio .bio_left .skills .react {
-          height: 100px;
-          width: 100px;
-          margin: 5px;
-          border-radius: 10px; }
-        #bio .bio_left .skills .node {
-          height: 100px;
-          width: 100px;
-          margin: 5px;
-          border-radius: 10px; }
-        #bio .bio_left .skills .solidity {
-          height: 100px;
-          width: 100px;
-          margin: 5px;
-          border-radius: 10px; }
-        #bio .bio_left .skills .rust {
-          height: 100px;
-          width: 100px;
-          margin: 5px;
-          border-radius: 10px; }
-        #bio .bio_left .skills .sql {
-          height: 100px;
-          width: 100px;
-          margin: 5px;
-          border-radius: 10px; }
-        #bio .bio_left .skills .mongodb {
-          height: 100px;
-          width: 100px;
-          margin: 5px;
-          border-radius: 10px; }
-        #bio .bio_left .skills .docker {
-          height: 100px;
-          width: 100px;
-          margin: 5px;
-          border-radius: 10px; }
-        #bio .bio_left .skills .js {
-          height: 100px;
-          width: 100px;
-          margin: 5px;
-          border-radius: 10px; }
-        #bio .bio_left .skills .python {
-          height: 100px;
-          width: 100px;
-          margin: 5px;
-          border-radius: 10px; }
-    #bio .photo_bio {
-      display: none; } }
-
+    margin: 0;
+  }
+  #bio .bio_left {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #bio .bio_left h2 {
+    text-align: center;
+    margin-top: 200px;
+  }
+  #bio .bio_left p {
+    margin-bottom: 30px;
+    font-size: 20px;
+    text-align: justify;
+  }
+  #bio .bio_left .skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  #bio .bio_left .skills .react {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    border-radius: 10px;
+  }
+  #bio .bio_left .skills .node {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    border-radius: 10px;
+  }
+  #bio .bio_left .skills .solidity {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    border-radius: 10px;
+  }
+  #bio .bio_left .skills .rust {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    border-radius: 10px;
+  }
+  #bio .bio_left .skills .sql {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    border-radius: 10px;
+  }
+  #bio .bio_left .skills .mongodb {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    border-radius: 10px;
+  }
+  #bio .bio_left .skills .docker {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    border-radius: 10px;
+  }
+  #bio .bio_left .skills .js {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    border-radius: 10px;
+  }
+  #bio .bio_left .skills .python {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    border-radius: 10px;
+  }
+  #bio .photo_bio {
+    display: none;
+  }
+}
 #portfolio {
   position: relative;
   display: flex;
   flex-direction: column;
   margin: auto;
   height: 100%;
-  z-index: 1; }
-  #portfolio h2 {
-    align-self: flex-start;
-    margin: 10% 10% 0% 10%; }
-  #portfolio h5 {
-    margin: 10% 10% 0% 10%;
-    max-width: 300px; }
-  #portfolio .card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-    height: 100%;
-    padding: 20px;
-    background-color: #e2e2e2;
-    margin: 2% 15% 2% 10%;
-    border-radius: 20px;
-    scrollbar-color: #000452 lightblue;
-    scrollbar-width: thin;
-    overflow: scroll; }
-  #portfolio a {
-    display: flex;
-    align-self: center;
-    justify-content: center; }
-    #portfolio a .mdpi {
-      background-image: url("../images/mdpi.png");
-      background-color: white;
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: 100%;
-      border-radius: 20px;
-      width: 150px;
-      height: 150px; }
-    #portfolio a .mdpi:hover {
-      background-image: url("../images/click.gif");
-      width: 150px;
-      height: 150px; }
-    #portfolio a .temp {
-      background-color: white;
-      width: 150px;
-      height: 150px; }
-    #portfolio a .arxiv {
-      background-image: url("../images/arxiv.jpg");
-      background-color: white;
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: 100%;
-      border-radius: 20px;
-      width: 150px;
-      height: 150px; }
-    #portfolio a .arxiv:hover {
-      background-image: url("../images/click.gif");
-      width: 150px;
-      height: 150px; }
-    #portfolio a .DSM {
-      background-image: url("../images/ieee.png");
-      background-color: white;
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: 100%;
-      border-radius: 20px;
-      width: 150px;
-      height: 150px; }
-  #portfolio .python {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: space-between;
-    /* The Close Button */ }
-    #portfolio .python .card_images {
-      margin: 10px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      max-width: 180px; }
-    #portfolio .python .yolop {
-      background-image: url("../images/YOLOP.png");
-      background-color: white;
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      border-radius: 20px;
-      width: 150px;
-      height: 150px; }
-    #portfolio .python .yolop:hover {
-      background-image: url("../images/click.gif"); }
-    #portfolio .python .dijk {
-      background-image: url("../images/dijk.jpg");
-      background-color: white;
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: 100%;
-      border-radius: 20px;
-      width: 150px;
-      height: 150px; }
-    #portfolio .python .xrite {
-      background-image: url("../images/xrite.png");
-      background-color: white;
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: 100%;
-      border-radius: 20px;
-      width: 150px;
-      height: 150px; }
-    #portfolio .python .xrite:hover {
-      background-image: url("../images/click.gif"); }
-    #portfolio .python .modalCanopy {
-      background-image: url("../images/modalCanopy.png");
-      background-color: white;
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: 100%;
-      border-radius: 20px;
-      width: 150px;
-      height: 150px; }
-    #portfolio .python .modalCanopy:hover {
-      background-image: url("../images/click.gif"); }
-    #portfolio .python .chlorophyll {
-      background-image: url("../images/chlorophyll.PNG");
-      background-color: white;
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: 100%;
-      border-radius: 20px;
-      width: 150px;
-      height: 150px; }
-    #portfolio .python .chlorophyll:hover {
-      background-image: url("../images/click.gif"); }
-    #portfolio .python .modal {
-      display: none;
-      z-index: 1;
-      width: 100%;
-      height: 100%;
-      overflow: auto;
-      position: fixed;
-      top: 0;
-      left: 0; }
-    #portfolio .python #myBtn {
-      border: none;
-      padding: 0;
-      height: 150px;
-      width: 150px;
-      align-content: center;
-      background: none; }
-    #portfolio .python .modal-content {
-      background-color: #fefefe;
-      margin: auto;
-      padding: 20px;
-      border-radius: 20px;
-      width: 80%;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%); }
-      #portfolio .python .modal-content a {
-        text-decoration: none;
-        color: #333;
-        padding: 4px 0; }
-      #portfolio .python .modal-content a:hover {
-        color: #ffd12a; }
-    #portfolio .python .close {
-      color: #aaaaaa;
-      text-align: end;
-      font-size: 28px;
-      font-weight: bold;
-      height: 30px; }
-    #portfolio .python .close:hover,
-    #portfolio .python .close:focus {
-      color: #000;
-      text-decoration: none;
-      cursor: pointer; }
-  #portfolio .blockchain {
-    display: flex;
-    flex-direction: row;
-    align-content: space-between;
-    justify-content: flex-start;
-    overflow-x: scroll; }
-    #portfolio .blockchain h5 {
-      margin: 10px 10px 0px 10px; }
-    #portfolio .blockchain .card_images {
-      margin: 10px;
-      width: 45%;
-      display: flex;
-      flex-direction: column;
-      align-items: center; }
-    #portfolio .blockchain .ethland {
-      background-image: url("../images/ethland.png");
-      background-color: white;
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: 100%;
-      border-radius: 20px;
-      width: 150px;
-      height: 150px; }
-    #portfolio .blockchain .ethland:hover {
-      background-image: url("../images/click.gif"); }
-    #portfolio .blockchain .evoting {
-      background-image: url("../images/e-voting.png");
-      background-color: white;
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: 100%;
-      border-radius: 20px;
-      width: 150px;
-      height: 150px; }
-    #portfolio .blockchain .frost {
-      background-image: url("../images/frost.jpg");
-      background-color: white;
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      border-radius: 20px;
-      width: 150px;
-      height: 150px; }
-    #portfolio .blockchain .tfhe {
-      background-image: url("../images/tfhe.png");
-      background-color: white;
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      border-radius: 20px;
-      width: 150px;
-      height: 150px; }
-  #portfolio .websites {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: flex-start; }
-    #portfolio .websites .virtualEvent {
-      background-image: url("../images/virtualEvent.gif");
-      background-color: white;
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: 100%;
-      border-radius: 20px;
-      width: 150px;
-      height: 150px;
-      margin: 20px; }
-    #portfolio .websites .virtualEvent:hover {
-      background-image: url("../images/click.gif"); }
-    #portfolio .websites .jsecommerce {
-      background-image: url("../images/js-ecommerce.gif");
-      background-color: white;
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: 100%;
-      border-radius: 20px;
-      width: 150px;
-      height: 150px;
-      margin: 20px; }
-    #portfolio .websites .jsecommerce:hover {
-      background-image: url("../images/click.gif"); }
-    #portfolio .websites .reactecommerce {
-      background-image: url("../images/reactjs-ecommerce.gif");
-      background-color: white;
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: 100%;
-      border-radius: 20px;
-      width: 150px;
-      height: 150px;
-      margin: 20px; }
-    #portfolio .websites .reactecommerce:hover {
-      background-image: url("../images/click.gif"); }
-    #portfolio .websites .flockio {
-      background-image: url("https://github.com/davidcuellard/FLock-explorer-web3/blob/main/frontend/public/demo.gif?raw=true");
-      background-color: white;
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: 100%;
-      border-radius: 20px;
-      width: 150px;
-      height: 150px;
-      margin: 20px; }
-    #portfolio .websites .flockio:hover {
-      background-image: url("../images/click.gif"); }
-    #portfolio .websites .django {
-      background-image: url("../images/django.gif");
-      background-color: white;
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: 100%;
-      border-radius: 20px;
-      width: 150px;
-      height: 150px;
-      margin: 20px; }
-    #portfolio .websites .django:hover {
-      background-image: url("../images/click.gif"); }
+  z-index: 1;
+}
+#portfolio h2 {
+  align-self: flex-start;
+  margin: 10% 10% 0% 10%;
+}
+#portfolio h5 {
+  margin: 10% 10% 0% 10%;
+  max-width: 300px;
+}
+#portfolio .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  height: 100%;
+  padding: 20px;
+  background-color: #e2e2e2;
+  margin: 2% 15% 2% 10%;
+  border-radius: 20px;
+  scrollbar-color: rgb(0, 4, 82) lightblue;
+  scrollbar-width: thin;
+  overflow: scroll;
+}
+#portfolio a {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+#portfolio a .mdpi {
+  background-image: url("../images/mdpi.png");
+  background-color: white;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 20px;
+  width: 150px;
+  height: 150px;
+}
+#portfolio a .mdpi:hover {
+  background-image: url("../images/click.gif");
+  width: 150px;
+  height: 150px;
+}
+#portfolio a .temp {
+  background-color: white;
+  width: 150px;
+  height: 150px;
+}
+#portfolio a .arxiv {
+  background-image: url("../images/arxiv.jpg");
+  background-color: white;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 20px;
+  width: 150px;
+  height: 150px;
+}
+#portfolio a .arxiv:hover {
+  background-image: url("../images/click.gif");
+  width: 150px;
+  height: 150px;
+}
+#portfolio a .DSM {
+  background-image: url("../images/ieee.png");
+  background-color: white;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 20px;
+  width: 150px;
+  height: 150px;
+}
+#portfolio .python {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-between;
+  /* The Close Button */
+}
+#portfolio .python .card_images {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 180px;
+}
+#portfolio .python .yolop {
+  background-image: url("../images/YOLOP.png");
+  background-color: white;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  width: 150px;
+  height: 150px;
+}
+#portfolio .python .yolop:hover {
+  background-image: url("../images/click.gif");
+}
+#portfolio .python .dijk {
+  background-image: url("../images/dijk.jpg");
+  background-color: white;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 20px;
+  width: 150px;
+  height: 150px;
+}
+#portfolio .python .xrite {
+  background-image: url("../images/xrite.png");
+  background-color: white;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 20px;
+  width: 150px;
+  height: 150px;
+}
+#portfolio .python .xrite:hover {
+  background-image: url("../images/click.gif");
+}
+#portfolio .python .modalCanopy {
+  background-image: url("../images/modalCanopy.png");
+  background-color: white;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 20px;
+  width: 150px;
+  height: 150px;
+}
+#portfolio .python .modalCanopy:hover {
+  background-image: url("../images/click.gif");
+}
+#portfolio .python .chlorophyll {
+  background-image: url("../images/chlorophyll.PNG");
+  background-color: white;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 20px;
+  width: 150px;
+  height: 150px;
+}
+#portfolio .python .chlorophyll:hover {
+  background-image: url("../images/click.gif");
+}
+#portfolio .python .modal {
+  display: none;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+#portfolio .python #myBtn {
+  border: none;
+  padding: 0;
+  height: 150px;
+  width: 150px;
+  align-content: center;
+  background: none;
+}
+#portfolio .python .modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border-radius: 20px;
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#portfolio .python .modal-content a {
+  text-decoration: none;
+  color: #333;
+  padding: 4px 0;
+}
+#portfolio .python .modal-content a:hover {
+  color: #ffd12a;
+}
+#portfolio .python .close {
+  color: #aaaaaa;
+  text-align: end;
+  font-size: 28px;
+  font-weight: bold;
+  height: 30px;
+}
+#portfolio .python .close:hover,
+#portfolio .python .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+#portfolio .blockchain {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  justify-content: flex-start;
+  overflow-x: scroll;
+}
+#portfolio .blockchain h5 {
+  margin: 10px 10px 0px 10px;
+}
+#portfolio .blockchain .card_images {
+  margin: 10px;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#portfolio .blockchain .ethland {
+  background-image: url("../images/ethland.png");
+  background-color: white;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 20px;
+  width: 150px;
+  height: 150px;
+}
+#portfolio .blockchain .ethland:hover {
+  background-image: url("../images/click.gif");
+}
+#portfolio .blockchain .evoting {
+  background-image: url("../images/e-voting.png");
+  background-color: white;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 20px;
+  width: 150px;
+  height: 150px;
+}
+#portfolio .blockchain .frost {
+  background-image: url("../images/frost.jpg");
+  background-color: white;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  width: 150px;
+  height: 150px;
+}
+#portfolio .blockchain .tfhe {
+  background-image: url("../images/tfhe.png");
+  background-color: white;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  width: 150px;
+  height: 150px;
+}
+#portfolio .websites {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: flex-start;
+}
+#portfolio .websites .virtualEvent {
+  background-image: url("../images/virtualEvent.gif");
+  background-color: white;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 20px;
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+}
+#portfolio .websites .virtualEvent:hover {
+  background-image: url("../images/click.gif");
+}
+#portfolio .websites .jsecommerce {
+  background-image: url("../images/js-ecommerce.gif");
+  background-color: white;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 20px;
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+}
+#portfolio .websites .jsecommerce:hover {
+  background-image: url("../images/click.gif");
+}
+#portfolio .websites .reactecommerce {
+  background-image: url("../images/reactjs-ecommerce.gif");
+  background-color: white;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 20px;
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+}
+#portfolio .websites .reactecommerce:hover {
+  background-image: url("../images/click.gif");
+}
+#portfolio .websites .flockio {
+  background-image: url("https://github.com/davidcuellard/FLock-explorer-web3/blob/main/frontend/public/demo.gif?raw=true");
+  background-color: white;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 20px;
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+}
+#portfolio .websites .flockio:hover {
+  background-image: url("../images/click.gif");
+}
+#portfolio .websites .django {
+  background-image: url("../images/django.gif");
+  background-color: white;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 20px;
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+}
+#portfolio .websites .django:hover {
+  background-image: url("../images/click.gif");
+}
 
 @media only screen and (max-width: 559px) {
   #portfolio {
-    background-position: center; }
-    #portfolio .card {
-      justify-content: flex-start;
-      overflow-x: scroll; }
-      #portfolio .card h3 {
-        font-size: 18px; }
-      #portfolio .card h5 {
-        font-size: 15px; }
-      #portfolio .card h6 {
-        font-size: 13px; }
-    #portfolio a .mdpi {
-      width: 90px;
-      height: 90px; }
-    #portfolio a .arxiv {
-      width: 90px;
-      height: 90px; }
-    #portfolio a .DSM {
-      width: 90px;
-      height: 90px; }
-    #portfolio .blockchain .ethland {
-      width: 90px;
-      height: 90px; }
-    #portfolio .blockchain .evoting {
-      width: 90px;
-      height: 90px; }
-    #portfolio .blockchain .frost {
-      width: 90px;
-      height: 90px; }
-    #portfolio .blockchain .tfhe {
-      width: 90px;
-      height: 90px; }
-    #portfolio .python {
-      justify-content: flex-start;
-      overflow-x: scroll; }
-      #portfolio .python .yolop {
-        width: 90px;
-        height: 90px; }
-      #portfolio .python .dijk {
-        width: 90px;
-        height: 90px; }
-      #portfolio .python .xrite {
-        width: 90px;
-        height: 90px; }
-      #portfolio .python .modalCanopy {
-        width: 90px;
-        height: 90px; }
-      #portfolio .python .chlorophyll {
-        width: 90px;
-        height: 90px; }
-      #portfolio .python #myBtn {
-        width: 90px;
-        height: 90px; }
-    #portfolio .websites {
-      justify-content: flex-start;
-      overflow-x: scroll; }
-      #portfolio .websites .virtualEvent {
-        width: 90px;
-        height: 90px; }
-      #portfolio .websites .jsecommerce {
-        width: 90px;
-        height: 90px; }
-      #portfolio .websites .reactecommerce {
-        width: 90px;
-        height: 90px; }
-      #portfolio .websites .flockio {
-        width: 90px;
-        height: 90px; } }
-
+    background-position: center;
+  }
+  #portfolio .card {
+    justify-content: flex-start;
+    overflow-x: scroll;
+  }
+  #portfolio .card h3 {
+    font-size: 18px;
+  }
+  #portfolio .card h5 {
+    font-size: 15px;
+  }
+  #portfolio .card h6 {
+    font-size: 13px;
+  }
+  #portfolio a .mdpi {
+    width: 90px;
+    height: 90px;
+  }
+  #portfolio a .arxiv {
+    width: 90px;
+    height: 90px;
+  }
+  #portfolio a .DSM {
+    width: 90px;
+    height: 90px;
+  }
+  #portfolio .blockchain .ethland {
+    width: 90px;
+    height: 90px;
+  }
+  #portfolio .blockchain .evoting {
+    width: 90px;
+    height: 90px;
+  }
+  #portfolio .blockchain .frost {
+    width: 90px;
+    height: 90px;
+  }
+  #portfolio .blockchain .tfhe {
+    width: 90px;
+    height: 90px;
+  }
+  #portfolio .python {
+    justify-content: flex-start;
+    overflow-x: scroll;
+  }
+  #portfolio .python .yolop {
+    width: 90px;
+    height: 90px;
+  }
+  #portfolio .python .dijk {
+    width: 90px;
+    height: 90px;
+  }
+  #portfolio .python .xrite {
+    width: 90px;
+    height: 90px;
+  }
+  #portfolio .python .modalCanopy {
+    width: 90px;
+    height: 90px;
+  }
+  #portfolio .python .chlorophyll {
+    width: 90px;
+    height: 90px;
+  }
+  #portfolio .python #myBtn {
+    width: 90px;
+    height: 90px;
+  }
+  #portfolio .websites {
+    justify-content: flex-start;
+    overflow-x: scroll;
+  }
+  #portfolio .websites .virtualEvent {
+    width: 90px;
+    height: 90px;
+  }
+  #portfolio .websites .jsecommerce {
+    width: 90px;
+    height: 90px;
+  }
+  #portfolio .websites .reactecommerce {
+    width: 90px;
+    height: 90px;
+  }
+  #portfolio .websites .flockio {
+    width: 90px;
+    height: 90px;
+  }
+}
 #contact {
   position: relative;
   display: flex;
@@ -735,129 +882,167 @@ header {
   z-index: 1;
   background-color: black;
   justify-content: space-around;
-  align-content: space-between; }
-  #contact h2 {
-    margin: 8% 10% 5% 10%; }
-  #contact .pfree {
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 28px;
-    margin-bottom: 50px; }
-  #contact p {
-    margin-left: auto;
-    margin-right: auto; }
-  #contact .incontact {
-    display: flex;
-    flex-direction: row; }
-    #contact .incontact .contact_info {
-      display: flex;
-      flex-direction: column;
-      margin: 10px 25px 10px 100px;
-      width: 50%; }
-    #contact .incontact .social {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center; }
-      #contact .incontact .social .github {
-        background-image: url("../images/github.png");
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: 100%;
-        border-radius: 20px;
-        width: 80px;
-        height: 80px;
-        margin: 20px; }
-      #contact .incontact .social .github:hover {
-        background-image: url("../images/github2.png"); }
-      #contact .incontact .social .linkedin {
-        background-image: url("../images/linkedin.png");
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: 100%;
-        border-radius: 20px;
-        width: 80px;
-        height: 80px;
-        margin: 20px; }
-      #contact .incontact .social .linkedin:hover {
-        background-image: url("../images/linkedin2.png"); }
-  #contact .footer {
-    display: flex;
-    flex-direction: row;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center; }
-    #contact .footer .foot_logo {
-      background-image: url("../images/logo.png");
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: 100%;
-      border-radius: 20px;
-      width: 150px;
-      height: 100px;
-      margin: 20px; }
+  align-content: space-between;
+}
+#contact h2 {
+  margin: 8% 10% 5% 10%;
+  color: #e2e2e2;
+  justify-content: center;
+  align-self: center;
+}
+#contact .pfree {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 28px;
+  margin-bottom: 50px;
+}
+#contact p {
+  margin-left: auto;
+  margin-right: auto;
+}
+#contact .incontact {
+  display: flex;
+  flex-direction: row;
+}
+#contact .incontact .contact_info {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 25px 10px 100px;
+  width: 50%;
+}
+#contact .incontact .social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#contact .incontact .social .github {
+  background-image: url("../images/github.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 20px;
+  width: 80px;
+  height: 80px;
+  margin: 20px;
+}
+#contact .incontact .social .github:hover {
+  background-image: url("../images/github2.png");
+}
+#contact .incontact .social .linkedin {
+  background-image: url("../images/linkedin.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 20px;
+  width: 80px;
+  height: 80px;
+  margin: 20px;
+}
+#contact .incontact .social .linkedin:hover {
+  background-image: url("../images/linkedin2.png");
+}
+#contact .footer {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+#contact .footer .foot_logo {
+  background-image: url("../images/logo.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 20px;
+  width: 150px;
+  height: 100px;
+  margin: 20px;
+}
 
 @media only screen and (max-width: 559px) {
   #contact {
     background-size: 180vh;
     margin: 0;
-    justify-content: flex-start; }
-    #contact .h2 {
-      text-align: center;
-      margin-top: 60px; }
-    #contact .pfree {
-      margin-top: 20px;
-      margin-bottom: 30px;
-      font-size: 20px; }
-    #contact .incontact {
-      display: flex;
-      flex-direction: column;
-      justify-content: center; }
-      #contact .incontact .contact_info {
-        margin: 10px 10px 10px 10px;
-        width: 100%; }
-      #contact .incontact .social .github {
-        width: 60px;
-        height: 60px; }
-      #contact .incontact .social .linkedin {
-        width: 60px;
-        height: 60px; }
-    #contact .footer {
-      position: absolute;
-      bottom: 0px;
-      align-items: center; }
-      #contact .footer p {
-        font-size: 12px; } }
-
+    justify-content: flex-start;
+  }
+  #contact h2 {
+    text-align: center;
+    margin-top: 60px;
+  }
+  #contact .pfree {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+  #contact .incontact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #contact .incontact .contact_info {
+    margin: 10px 10px 10px 10px;
+    width: 100%;
+  }
+  #contact .incontact .social .github {
+    width: 60px;
+    height: 60px;
+  }
+  #contact .incontact .social .linkedin {
+    width: 60px;
+    height: 60px;
+  }
+  #contact .footer {
+    position: absolute;
+    bottom: 0px;
+    align-items: center;
+  }
+  #contact .footer p {
+    font-size: 12px;
+  }
+}
 @media only screen and (min-width: 559px) and (max-width: 965px) {
   #contact {
     background-size: 180vh;
     margin: 0;
-    justify-content: flex-start; }
-    #contact .h2 {
-      text-align: center;
-      margin-top: 200px; }
-    #contact .pfree {
-      margin-top: 20px;
-      margin-bottom: 30px;
-      font-size: 25px; }
-    #contact .incontact {
-      display: flex;
-      flex-direction: column;
-      justify-content: center; }
-      #contact .incontact .contact_info {
-        margin: 10px 10px 10px 10px;
-        width: 100%; }
-        #contact .incontact .contact_info p {
-          font-size: 20px; }
-      #contact .incontact .social .github {
-        width: 100px;
-        height: 100px; }
-      #contact .incontact .social .linkedin {
-        width: 100px;
-        height: 100px; }
-    #contact .footer {
-      align-items: center;
-      margin: auto; }
-      #contact .footer p {
-        font-size: 14px; } }
+    justify-content: flex-start;
+  }
+  #contact h2 {
+    text-align: center;
+    margin-top: 200px;
+  }
+  #contact .pfree {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 25px;
+  }
+  #contact .incontact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #contact .incontact .contact_info {
+    margin: 10px 10px 10px 10px;
+    width: 100%;
+  }
+  #contact .incontact .contact_info p {
+    font-size: 20px;
+  }
+  #contact .incontact .social .github {
+    width: 100px;
+    height: 100px;
+  }
+  #contact .incontact .social .linkedin {
+    width: 100px;
+    height: 100px;
+  }
+  #contact .footer {
+    align-items: center;
+    margin: auto;
+  }
+  #contact .footer p {
+    font-size: 14px;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
