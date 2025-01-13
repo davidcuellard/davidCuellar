@@ -499,9 +499,6 @@ header {
   position: relative;
   display: flex;
   flex-direction: column;
-  // background-image: url(../images/body_portfolio.gif);
-  // background-repeat: repeat;
-  // background-size: cover;
   margin: auto;
   height: 100%;
   z-index: 1;
@@ -509,6 +506,7 @@ header {
   h2 {
     align-self: flex-start;
     margin: 10% 10% 0% 10%;
+    color: $color_fuente;
   }
 
   h5 {
