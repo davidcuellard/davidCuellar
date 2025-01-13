@@ -545,7 +545,7 @@ header {
       width: 150px;
       height: 150px;
     }
-    .mdpi:hover {
+    .click:hover {
       background-image: url("../images/click.gif");
       width: 150px;
       height: 150px;
@@ -564,12 +564,6 @@ header {
       background-repeat: no-repeat;
       background-size: 100%;
       border-radius: 20px;
-      width: 150px;
-      height: 150px;
-    }
-
-    .arxiv:hover {
-      background-image: url("../images/click.gif");
       width: 150px;
       height: 150px;
     }
@@ -610,9 +604,6 @@ header {
       width: 150px;
       height: 150px;
     }
-    .yolop:hover {
-      background-image: url("../images/click.gif");
-    }
 
     .dijk {
       background-image: url("../images/dijk.jpg");
@@ -635,9 +626,6 @@ header {
       width: 150px;
       height: 150px;
     }
-    .xrite:hover {
-      background-image: url("../images/click.gif");
-    }
 
     .modalCanopy {
       background-image: url("../images/modalCanopy.png");
@@ -649,9 +637,6 @@ header {
       width: 150px;
       height: 150px;
     }
-    .modalCanopy:hover {
-      background-image: url("../images/click.gif");
-    }
 
     .chlorophyll {
       background-image: url("../images/chlorophyll.PNG");
@@ -662,9 +647,6 @@ header {
       border-radius: 20px;
       width: 150px;
       height: 150px;
-    }
-    .chlorophyll:hover {
-      background-image: url("../images/click.gif");
     }
 
     .modal {
@@ -754,9 +736,6 @@ header {
       width: 150px;
       height: 150px;
     }
-    .ethland:hover {
-      background-image: url("../images/click.gif");
-    }
 
     .evoting {
       background-image: url("../images/e-voting.png");
@@ -809,9 +788,7 @@ header {
       height: 150px;
       margin: 20px;
     }
-    .virtualEvent:hover {
-      background-image: url("../images/click.gif");
-    }
+
     .jsecommerce {
       background-image: url("../images/js-ecommerce.gif");
       background-color: white;
@@ -823,9 +800,7 @@ header {
       height: 150px;
       margin: 20px;
     }
-    .jsecommerce:hover {
-      background-image: url("../images/click.gif");
-    }
+
     .reactecommerce {
       background-image: url("../images/reactjs-ecommerce.gif");
       background-color: white;
@@ -837,9 +812,7 @@ header {
       height: 150px;
       margin: 20px;
     }
-    .reactecommerce:hover {
-      background-image: url("../images/click.gif");
-    }
+
     .flockio {
       background-image: url("https://github.com/davidcuellard/FLock-explorer-web3/blob/main/frontend/public/demo.gif?raw=true");
       background-color: white;
@@ -850,9 +823,6 @@ header {
       width: 150px;
       height: 150px;
       margin: 20px;
-    }
-    .flockio:hover {
-      background-image: url("../images/click.gif");
     }
 
     .django {
@@ -865,9 +835,6 @@ header {
       width: 150px;
       height: 150px;
       margin: 20px;
-    }
-    .django:hover {
-      background-image: url("../images/click.gif");
     }
   }
 }

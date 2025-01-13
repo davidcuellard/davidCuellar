@@ -477,7 +477,7 @@ header .menuMobil {
   width: 150px;
   height: 150px;
 }
-#portfolio a .mdpi:hover {
+#portfolio a .click:hover {
   background-image: url("../images/click.gif");
   width: 150px;
   height: 150px;
@@ -494,11 +494,6 @@ header .menuMobil {
   background-repeat: no-repeat;
   background-size: 100%;
   border-radius: 20px;
-  width: 150px;
-  height: 150px;
-}
-#portfolio a .arxiv:hover {
-  background-image: url("../images/click.gif");
   width: 150px;
   height: 150px;
 }
@@ -536,9 +531,6 @@ header .menuMobil {
   width: 150px;
   height: 150px;
 }
-#portfolio .python .yolop:hover {
-  background-image: url("../images/click.gif");
-}
 #portfolio .python .dijk {
   background-image: url("../images/dijk.jpg");
   background-color: white;
@@ -559,9 +551,6 @@ header .menuMobil {
   width: 150px;
   height: 150px;
 }
-#portfolio .python .xrite:hover {
-  background-image: url("../images/click.gif");
-}
 #portfolio .python .modalCanopy {
   background-image: url("../images/modalCanopy.png");
   background-color: white;
@@ -572,9 +561,6 @@ header .menuMobil {
   width: 150px;
   height: 150px;
 }
-#portfolio .python .modalCanopy:hover {
-  background-image: url("../images/click.gif");
-}
 #portfolio .python .chlorophyll {
   background-image: url("../images/chlorophyll.PNG");
   background-color: white;
@@ -584,9 +570,6 @@ header .menuMobil {
   border-radius: 20px;
   width: 150px;
   height: 150px;
-}
-#portfolio .python .chlorophyll:hover {
-  background-image: url("../images/click.gif");
 }
 #portfolio .python .modal {
   display: none;
@@ -665,9 +648,6 @@ header .menuMobil {
   width: 150px;
   height: 150px;
 }
-#portfolio .blockchain .ethland:hover {
-  background-image: url("../images/click.gif");
-}
 #portfolio .blockchain .evoting {
   background-image: url("../images/e-voting.png");
   background-color: white;
@@ -715,9 +695,6 @@ header .menuMobil {
   height: 150px;
   margin: 20px;
 }
-#portfolio .websites .virtualEvent:hover {
-  background-image: url("../images/click.gif");
-}
 #portfolio .websites .jsecommerce {
   background-image: url("../images/js-ecommerce.gif");
   background-color: white;
@@ -728,9 +705,6 @@ header .menuMobil {
   width: 150px;
   height: 150px;
   margin: 20px;
-}
-#portfolio .websites .jsecommerce:hover {
-  background-image: url("../images/click.gif");
 }
 #portfolio .websites .reactecommerce {
   background-image: url("../images/reactjs-ecommerce.gif");
@@ -743,9 +717,6 @@ header .menuMobil {
   height: 150px;
   margin: 20px;
 }
-#portfolio .websites .reactecommerce:hover {
-  background-image: url("../images/click.gif");
-}
 #portfolio .websites .flockio {
   background-image: url("https://github.com/davidcuellard/FLock-explorer-web3/blob/main/frontend/public/demo.gif?raw=true");
   background-color: white;
@@ -757,9 +728,6 @@ header .menuMobil {
   height: 150px;
   margin: 20px;
 }
-#portfolio .websites .flockio:hover {
-  background-image: url("../images/click.gif");
-}
 #portfolio .websites .django {
   background-image: url("../images/django.gif");
   background-color: white;
@@ -770,9 +738,6 @@ header .menuMobil {
   width: 150px;
   height: 150px;
   margin: 20px;
-}
-#portfolio .websites .django:hover {
-  background-image: url("../images/click.gif");
 }
 
 @media only screen and (max-width: 559px) {
